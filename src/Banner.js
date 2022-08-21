@@ -1,4 +1,7 @@
 import React from "react";
+import S2 from './slide2.jpg';
+import S4 from './slide4.jpg';
+import S3 from './slide3.jpg';
 export default function Banner() {
     return (
         <>
@@ -11,13 +14,13 @@ export default function Banner() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/287697411_385930530233961_2667849626347619583_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=t43cFUyuCK0AX-09XhZ&_nc_ht=scontent.fktm3-1.fna&oh=00_AT-80XPQ0y2Ts3AzbaMSPWNtZTqCUzDK6U9FWB87UcdfuA&oe=62E1B01A" className="App-logo d-block w-100 img-fluid" alt="slide1" />
+                        <img src= {S4} className="App-logo d-block w-100 img-fluid" alt="slide1" />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/287683008_385930500233964_3627605425907868944_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vJtETy9oUTwAX-PsaZY&tn=tg-yJ3-r30uRADIU&_nc_ht=scontent.fktm3-1.fna&oh=00_AT96_jhQDkSiLijMNbjc6O2qpn4yuKq_IbDRGjpPSlzJ0g&oe=62E12BC8" className="d-block w-100 img-fluid" alt="..." />
+                        <img src={S2} className="d-block w-100 img-fluid" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/287539801_385930623567285_7345352813125361791_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=iBb2i7W_jwIAX_b7x3T&tn=tg-yJ3-r30uRADIU&_nc_ht=scontent.fktm3-1.fna&oh=00_AT-a9fnluHLmpWVFzO0raK1lXhPmRcI38u46boGl3D49aw&oe=62E00CD8" className="d-block w-100 img-fluid" alt="..." />
+                        <img src={S3} className="d-block w-100 img-fluid" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -29,7 +32,6 @@ export default function Banner() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
             <div className="container py-3">
                 <div className="row py-5" >
                 <h1 className="text-center text-danger py-3">OUR SPECIALITIES</h1>
@@ -46,9 +48,7 @@ export default function Banner() {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            
+            </div>     
             <div className="container ">
                 <h1 className="text-center text-danger py-3">Featured Products</h1>
                 <div className="row py-5 ">

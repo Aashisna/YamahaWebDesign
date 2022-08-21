@@ -1,12 +1,15 @@
 import React from "react";
+import md from './MD.jpg';
+import ab1 from './about1.jpg';
+import ab2 from './about2.png';
 export default function About() {
     return (
         <>
             <h1 className="bg-gray text-danger text-center">About Us</h1>
-            <div className="row container-fluid py-5">
+            <div className="row container py-5">
                 <div className="col-lg-6">
                     <h2 className="text-primary text-center">FZ SA Version 3.0</h2>
-                    <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/251483316_247222667438082_409129068441156229_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=o6EQrQFncDcAX-3bTmU&_nc_ht=scontent.fktm8-1.fna&oh=00_AT-nIlnD42Sh9jRN3Yqd1rddozoSsVHZKCCFYb38Xmp2HQ&oe=62E18796" className="App-logo d-block w-100 img-fluid" alt="slide1" />
+                    <img src={ab1} className="App-logo d-block w-100 img-fluid" alt="slide1" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-primary text-center ">Our Details</h2>
@@ -16,10 +19,10 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="row py-5 container-fluid">
+            <div className="row py-5 container">
                 <div className="col-lg-6">
                     <h2 className="text-primary text-center">MAW</h2>
-                    <img src="https://yamaha.com.np/wp-content/uploads/2020/04/maw2.png" className="App-logo d-block w-100 img-fluid" alt="slide1" />
+                    <img src={ab2} className="App-logo d-block w-100 img-fluid" alt="slide1" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-primary text-center">Our Details</h2>
@@ -28,10 +31,10 @@ export default function About() {
                     </p>
                 </div>
                 </div>
-            <div className="row py-5 container-fluid">
+            <div className="row py-5 container">
                 <div className="col-lg-6">
                     <h2 className="text-primary text-center">MD, Sapim Kharel</h2>
-                    <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/288287970_390954773064870_8416475504795833565_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=D8AUcbbYmRQAX-ZQRzh&tn=tg-yJ3-r30uRADIU&_nc_ht=scontent.fktm8-1.fna&oh=00_AT8G2WL6yDM5DUURLicdFvCZmSayd8oQ35tmHLFvjTF4FA&oe=62E14007" className="App-logo d-block w-100 img-fluid" alt="slide1" />
+                    <img src={md} className="App-logo d-block w-100 img-fluid" alt="slide1" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-primary text-center">Our Details</h2>
